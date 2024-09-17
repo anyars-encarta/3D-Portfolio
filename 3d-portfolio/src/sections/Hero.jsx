@@ -7,6 +7,12 @@ const Hero = () => {
 
             <p className='hero_tag text-gray_gradient'>Building Products & Brands</p>
         </div>
+
+        <div className='w-full h-full absolute insert-0'>
+            <Canvas>
+                
+            </Canvas>
+        </div>
     </section>
   )
 }
