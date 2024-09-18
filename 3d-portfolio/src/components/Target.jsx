@@ -1,5 +1,6 @@
-import { Html, useGLTF } from '@react-three/drei'
-import { useRef } from 'react'
+import { useGLTF } from '@react-three/drei';
+import { useRef } from 'react';
+import gsap from 'gsap';
 
 const Target = (props) => {
     const targetRef = useRef();
