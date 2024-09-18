@@ -11,6 +11,7 @@ import Target from '../components/Target';
 import ReactLogo from '../components/ReactLogo';
 import Cube from '../components/Cube';
 import Rings from '../components/Rings';
+import HeroCamera from '../components/HeroCamera';
 
 const Hero = () => {
   // const x = useControls('HackerRoom', {
@@ -51,9 +52,9 @@ const Hero = () => {
   //     max: 10
   //   },
   // });
-  const isSmall = useMediaQuery({maxWidth: 440});
-  const isMobile = useMediaQuery({maxWidth: 768});
-  const isTablet = useMediaQuery({minWidth: 768, maxWidth: 1024});
+  const isSmall = useMediaQuery({ maxWidth: 440 });
+  const isMobile = useMediaQuery({ maxWidth: 768 });
+  const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1024 });
 
   const sizes = calculateSizes(isSmall, isMobile, isTablet);
 
@@ -66,15 +67,18 @@ const Hero = () => {
       </div>
 
       <div className='w-full h-full absolute insert-0'>
-            {/* <Leva /> */}
+        {/* <Leva /> */}
         <Canvas className='w-full h-full'>
           <Suspense fallback={<CanvasLoader />}>
             <PerspectiveCamera makeDefault position={[0, 0, 20]} />
-            <HackerRoom
-              scale={sizes.deskScale}
-              position={sizes.deskPosition}
-              rotation={[0, -Math.PI, 0]}
-            />
+
+            <HeroCamera>
+              <HackerRoom
+                scale={sizes.deskScale}
+                position={sizes.deskPosition}
+                rotation={[0, -Math.PI, 0]}
+              />
+            </HeroCamera>
 
             <group>
               <Target position={sizes.targetPosition} />
