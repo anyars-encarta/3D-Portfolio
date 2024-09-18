@@ -8,6 +8,7 @@ import CanvasLoader from '../components/CanvasLoader';
 import { useMediaQuery } from 'react-responsive';
 import { calculateSizes } from '../constants';
 import Target from '../components/Target';
+import ReactLogo from '../components/ReactLogo';
 
 const Hero = () => {
   // const x = useControls('HackerRoom', {
@@ -75,6 +76,7 @@ const Hero = () => {
 
             <group>
               <Target position={sizes.targetPosition} />
+              <ReactLogo position={sizes.reactLogoPosition} />
             </group>
 
             <ambientLight intensity={1} />
