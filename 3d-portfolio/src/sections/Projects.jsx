@@ -1,8 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { myProjects } from '../constants'
 
+const projectsCount = myProjects.length;
 const Projects = () => {
-    const currentProject = myProjects[0];
+    const [selectedProjectIndex, setSelectedProjectIndex] = useState(0);
+    const currentProject = myProjects[selectedProjectIndex];
+
+    const handleNavigation = (direction) => {
+        setSelectedProjectIndex((prev) => {
+            if (direction === 'previous') {
+                return prev === 0 ? projectsCount - 1 : prev - 1;
+            } else {
+                return prev === projectsCount - 1 ? 0 : prev + 1;
+            }
+        })
+    };
 
     return (
         <section className='c-space my-20' id='work'>
@@ -42,6 +54,16 @@ const Projects = () => {
                             <p>Check Live Site</p>
                             <img src="/assets/live_stream.png" alt="arrow" className='w-4 h-4' />
                         </a>
+                    </div>
+
+                    <div className='flex items-center justify-between mt-7'>
+                        <button className='arrow-btn' onClick={() => handleNavigation('previous')}>
+                            <img src="/assets/left-arrow.png" alt="left arrow" className='w-4 h-4 cursor-pointer' />
+                        </button>
+
+                        <button className='arrow-btn' onClick={() => handleNavigation('next')}>
+                            <img src="/assets/right-arrow.png" alt="right arrow" className='w-4 h-4 cursor-pointer' />
+                        </button>
                     </div>
                 </div>
             </div>
