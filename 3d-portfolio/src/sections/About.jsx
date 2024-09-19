@@ -71,12 +71,12 @@ const About = () => {
                             />
                         </div>
 
-                        <div className=''>
+                        <div>
                             <p className='grid-headtext'>I work remotely accross most timezones</p>
-                            <p className='grid-subtext'>I am based in Kumasi, Ghana, West Africa, with remote work available</p>
+                            <p className='grid-subtext'>I am based in Kumasi, Ghana, West Africa, with remote work is available</p>
 
                             <Button 
-                                name = "Contact Me"
+                                name="Contact Me"
                                 isBeam
                                 containerClass='w-full mt-10'
                             />
