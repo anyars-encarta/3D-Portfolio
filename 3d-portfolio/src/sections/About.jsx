@@ -18,8 +18,6 @@ const About = () => {
         }
       };
 
-    console.log(copied);
-
     return (
         <section className='c-space my-20' id='about'>
             <div className='grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full'>
@@ -107,7 +105,7 @@ const About = () => {
                             <p className='grid-subtext text-center'>Contact me</p>
 
                             <div className='copy-container' onClick={handleCopy}>
-                                <img src={copied ? "/assets/check.svg" : "/assets/copy.svg"} alt="copy" />
+                                <img src={copied ? "/assets/tick.svg" : "/assets/copy.svg"} alt="copy" />
                                 <p className='lg:text-2xl md:text-xl font-medium text-gray_gradient text-white'>anyarsencarta@gmail.com</p>
                             </div>
                         </div>
