@@ -7,16 +7,16 @@ const About = () => {
 
     const handleCopy = () => {
         if (navigator.clipboard) {
-          navigator.clipboard.writeText('anyarsencarta@gmail.com');
-          setCopied(true);
-      
-          setTimeout(() => {
-            setCopied(false)
-          }, 3000);
+            navigator.clipboard.writeText('anyarsencarta@gmail.com');
+            setCopied(true);
+
+            setTimeout(() => {
+                setCopied(false)
+            }, 3000);
         } else {
-          console.error("Clipboard API is not supported");
+            console.error("Clipboard API is not supported");
         }
-      };
+    };
 
     return (
         <section className='c-space my-20' id='about'>
@@ -75,11 +75,9 @@ const About = () => {
                             <p className='grid-headtext'>I work remotely accross most timezones</p>
                             <p className='grid-subtext'>I am based in Kumasi, Ghana, West Africa, with remote work is available</p>
 
-                            <Button 
-                                name="Contact Me"
-                                isBeam
-                                containerClass='w-full mt-10'
-                            />
+                            <a href="#contact">
+                                <Button name="Contact Me" isBeam containerClass='w-full mt-10' />
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -90,7 +88,7 @@ const About = () => {
 
                         <div>
                             <p className='grid-headtext'>My passion for coding</p>
-                            <p className='grid-subtext'>I love solving problems, learning new technologies, 
+                            <p className='grid-subtext'>I love solving problems, learning new technologies,
                                 and building things through code. Coding isn't just my profession - it is my passion
                             </p>
                         </div>
