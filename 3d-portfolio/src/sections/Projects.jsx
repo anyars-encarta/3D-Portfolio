@@ -67,7 +67,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-
+                
             </div>
         </section>
     )
