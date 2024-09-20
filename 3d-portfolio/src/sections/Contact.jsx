@@ -1,4 +1,10 @@
 import React, { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
+
+const SERVICEID = import.meta.env.VITE_APP_EMAILJS_SERVICE_ID;
+const TEMPLATEID = import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID;
+const RECEIVERID = import.meta.env.VITE_APP_EMAILJS_RECEIVER_ID;
+const PUBLIC_KEY = import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY;
 
 const Contact = () => {
     const formRef = useRef();
@@ -14,11 +20,38 @@ const Contact = () => {
         setForm({ ...form, [name]: value })
     };
 
-    // service_wntpknv
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
         setLoading(true);
 
+        try {
+           await emailjs.send(
+                SERVICEID,
+                TEMPLATEID,
+                {
+                    from_name: form.name,
+                    to_name: 'Anyars Yussif',
+                    from_email: form.email,
+                    to_email: RECEIVERID,
+                    message: form.message
+                },
+                PUBLIC_KEY
+            )
+
+            setLoading(false)
+
+            alert('Your message has been sent. Thank you!')
+
+            setForm({
+                name: '',
+                email: '',
+                message: '',
+            })
+        } catch (e) {
+            setLoading(false);
+            console.log(e)
+            alert('Something went wrong!')
+        }
 
     };
 
