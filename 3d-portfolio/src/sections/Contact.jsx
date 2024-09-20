@@ -10,13 +10,16 @@ const Contact = () => {
         message: '',
     });
 
-    const handleChange = (e) => {
-        const { target } = e;
-        const { name, value } = target;
+    const handleChange = ({ target: { name, value } }) => {
+        setForm({ ...form, [name]: value })
     };
 
-    const handleSubmit = () => {
-        console.log(form);
+    // service_wntpknv
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        setLoading(true);
+
+
     };
 
     return (
@@ -73,11 +76,14 @@ const Contact = () => {
                             onChange={handleChange}
                             required
                             rows={5}
-                            placeholder="Hi, I'm interested in..."
+                            placeholder="Hi, I wanna give you a job..."
                             className='field-input'
                         />
 
-                        <button className='btn btn-primary'>Send Message</button>
+                        <button type='aubmit' className='field-btn' disabled={loading}>
+                            {loading ? 'Sending...' : 'Send Message'}
+                            <img src="/assets/arrow-up.png" alt="arrow-up" className='field-btn_arrow' />
+                        </button>
                     </form>
                 </div>
             </div>
