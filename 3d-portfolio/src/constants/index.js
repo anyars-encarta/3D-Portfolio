@@ -63,6 +63,7 @@ export const navLinks = [
       subdesc:
         'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
       href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+      github: '',
       texture: '/textures/project/project1.mp4',
       logo: '/assets/project-logo1.png',
       logoStyle: {
@@ -100,6 +101,7 @@ export const navLinks = [
       subdesc:
         'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
       href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+      github: '',
       texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo2.png',
       logoStyle: {
@@ -137,6 +139,7 @@ export const navLinks = [
       subdesc:
         'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
       href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+      github: '',
       texture: '/textures/project/project3.mp4',
       logo: '/assets/project-logo3.png',
       logoStyle: {
@@ -176,6 +179,7 @@ export const navLinks = [
       subdesc:
         'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
       href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+      github: '',
       texture: '/textures/project/project4.mp4',
       logo: '/assets/project-logo4.png',
       logoStyle: {
@@ -213,6 +217,7 @@ export const navLinks = [
       subdesc:
         'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
       href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+      github: '',
       texture: '/textures/project/project5.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {
