@@ -22,7 +22,7 @@ const Projects = () => {
 
     return (
         <section className='c-space my-20' id='work'>
-            <p className='head-text'>A small selection of my Projects</p>
+            <p className='head-text'>A small selection of my Projects - <span className='text-white-500'>{selectedProjectIndex + 1} of {projectsCount}</span></p>
 
             <div className='grid lg:grid-cols-2 grid-cols-1 mt-12 gap-5 w-full'>
                 <div className='flex flex-col gap-5 relative sm:p-10 py-10 px-5 shadow-2xl shadow-black-200'>
@@ -62,11 +62,11 @@ const Projects = () => {
 
                     <div className='flex items-center justify-between mt-7'>
                         <button className='arrow-left-btn' onClick={() => handleNavigation('previous')}>
-                            <img src="/assets/left-arrow.png" alt="left arrow" className='w-4 h-4 cursor-pointer' />
+                            <img src="/assets/left-arrow.png" alt="left arrow" className='w-4 h-4 cursor-pointer animate-bounce-left-right' />
                         </button>
 
                         <button className='arrow-right-btn' onClick={() => handleNavigation('next')}>
-                            <img src="/assets/right-arrow.png" alt="right arrow" className='w-4 h-4 cursor-pointer' />
+                            <img src="/assets/right-arrow.png" alt="right arrow" className='w-4 h-4 cursor-pointer animate-bounce-left-right' />
                         </button>
                     </div>
                 </div>
