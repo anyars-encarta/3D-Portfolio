@@ -1,13 +1,28 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { clientReviews } from '../constants'
 
+const allReviews = clientReviews.length;
+
 const Clients = () => {
+    const [initialCount, setInitialCount] = useState(4);
+
+    const handleShowMore = () => {
+        if (initialCount >= allReviews) {
+            setInitialCount(4);
+
+            const reviewsElement = document.getElementById('clients');
+            reviewsElement.scrollIntoView({ behavior: 'smooth' });
+        } else {
+            setInitialCount(initialCount + 2);
+        }
+    };
+
     return (
         <section className='c-space my-20' id='clients'>
             <h3 className='head-text'>Hear from my Clients & Partners</h3>
 
             <div className='client-container'>
-                {clientReviews.map(({ id, name, position, img, review }) => (
+                {clientReviews.slice(0, initialCount).map(({ id, name, position, img, review }) => (
                     <div className='client-review' key={id}>
                         <div>
                             <p className='text-white font-light'>{review}</p>
@@ -30,6 +45,14 @@ const Clients = () => {
                         </div>
                     </div>
                 ))}
+            </div>
+
+            <div className='w-full flex items-center justify-center mt-5'>
+                <img
+                    src="/assets/arrow-down.svg"
+                    alt="arrow"
+                    className={`w-8 h-8 cursor-pointer ${initialCount >= allReviews ? 'rotate-180' : 'animate-bounce'}`}
+                    onClick={handleShowMore} />
             </div>
         </section>
     )
