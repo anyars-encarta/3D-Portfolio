@@ -20,7 +20,7 @@ const Footer = () => {
 
                 <div className='social-icon'>
                     <a href="https://x.com/anyarsencarta" target='_blank' rel='noreferrer' className='flex items-center justify-center'>
-                        <img src="/assets/twitter.svg" alt="twitter" className='w-1/2 h-1/2' />
+                        <img src="/assets/x.svg" alt="twitter" className='w-1/2 h-1/2' />
                     </a>
                 </div>
 
