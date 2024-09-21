@@ -22,7 +22,7 @@ const Projects = () => {
 
     return (
         <section className='c-space my-20' id='work'>
-            <p className='head-text'>A small selection of my Projects - <span className='text-white-500'>{selectedProjectIndex + 1} of {projectsCount}</span></p>
+            <p className='head-text'>A small selection of my Projects</p>
 
             <div className='grid lg:grid-cols-2 grid-cols-1 mt-12 gap-5 w-full'>
                 <div className='flex flex-col gap-5 relative sm:p-10 py-10 px-5 shadow-2xl shadow-black-200'>
@@ -65,6 +65,8 @@ const Projects = () => {
                             <img src="/assets/left-arrow.png" alt="left arrow" className='w-4 h-4 cursor-pointer animate-bounce-left-right group-hover:animate-none' />
                         </button>
 
+                        <span className='text-white-500'>{selectedProjectIndex + 1} of {projectsCount}</span>
+
                         <button className='arrow-right-btn group' onClick={() => handleNavigation('next')}>
                             <img src="/assets/right-arrow.png" alt="right arrow" className='w-4 h-4 cursor-pointer animate-bounce-left-right group-hover:animate-none' />
                         </button>
@@ -73,15 +75,15 @@ const Projects = () => {
 
                 <div className='border border-black-300 backround-black-200 rounded-lg h-96 md:h-full'>
                     <Canvas>
-                        <ambientLight intensity={Math.PI}/>
-                        <directionalLight position={[10, 10, 5]}/>
+                        <ambientLight intensity={Math.PI} />
+                        <directionalLight position={[10, 10, 5]} />
                         <Center>
                             <Suspense fallback={<CanvasLoader />}>
                                 <group scale={2} position={[0, -3, 0]} rotation={[0, -0.1, 0]}>
                                     <DemoComputer texture={currentProject.texture} />
                                 </group>
                             </Suspense>
-                            <OrbitControls maxPolarAngle={Math.PI / 2} enableZoom={false}/>
+                            <OrbitControls maxPolarAngle={Math.PI / 2} enableZoom={false} />
                         </Center>
                     </Canvas>
                 </div>
