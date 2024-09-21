@@ -146,7 +146,7 @@ export const navLinks = [
         'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
       href: 'https://anyars-podcastr.vercel.app/',
       github: 'https://github.com/anyars-encarta/podcastr',
-      texture: '/textures/project/project1.mp4',
+      texture: '/textures/project/podacstr.mp4',
       logo: '/assets/project-logo1.png',
       logoStyle: {
         backgroundColor: '#2A1816',
@@ -184,7 +184,7 @@ export const navLinks = [
         'With LiveDocs, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
       href: 'https://live-docs-encarta.vercel.app/',
       github: 'https://github.com/anyars-encarta/live-docs',
-      texture: '/textures/project/project2.mp4',
+      texture: '/textures/project/livedocks.mp4',
       logo: '/assets/project-logo2.png',
       logoStyle: {
         backgroundColor: '#13202F',
@@ -222,7 +222,7 @@ export const navLinks = [
         'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
       href: 'https://care-pulse-anyars.vercel.app/',
       github: 'https://github.com/anyars-encarta/care-pulse',
-      texture: '/textures/project/project3.mp4',
+      texture: '/textures/project/carepulse.mp4',
       logo: '/assets/project-logo3.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
@@ -262,7 +262,7 @@ export const navLinks = [
         'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
       href: 'https://horizon-anyars.vercel.app/',
       github: 'https://github.com/anyars-encarta/banking-app',
-      texture: '/textures/project/project4.mp4',
+      texture: '/textures/project/horizon.mp4',
       logo: '/assets/project-logo4.png',
       logoStyle: {
         backgroundColor: '#0E1F38',
@@ -338,7 +338,7 @@ export const navLinks = [
         'Built with React, Redux, Framer Motion, and Chakra UI, Expenses Tracker combines cutting-edge technology with a user-centric approach. It can be used to manage a wide variety of expenses, from personal expenses to business expenses.',
       href: 'https://anyars-encarta.github.io/expense-tracker/',
       github: 'https://github.com/anyars-encarta/expense-tracker',
-      texture: '/textures/project/project5.mp4',
+      texture: '/textures/project/project6.mp4',
       logo: '/assets/expenses-tracker.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
@@ -376,7 +376,7 @@ export const navLinks = [
         'Built with React, Firebase, and Zustand, Chat App combines cutting-edge technology with a user-centric approach. It can be used to communicate and interact with a wide range of users.',
       href: 'https://anyars-chat-app.vercel.app/',
       github: 'https://github.com/anyars-encarta/encarta-chat-app',
-      texture: '/textures/project/project5.mp4',
+      texture: '/textures/project/project7.mp4',
       logo: '/assets/chat-app.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
@@ -409,7 +409,7 @@ export const navLinks = [
         'Built with React, Firebase, and Zustand, Chat App combines cutting-edge technology with a user-centric approach. It can be used to communicate and interact with a wide range of users.',
       href: 'https://anyars-chat-app.vercel.app/',
       github: 'https://github.com/anyars-encarta/encarta-chat-app',
-      texture: '/textures/project/project5.mp4',
+      texture: '/textures/project/project8.mp4',
       logo: '/assets/social-media.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
@@ -447,7 +447,7 @@ export const navLinks = [
         'Built with React, Firebase, and Zustand, Chat App combines cutting-edge technology with a user-centric approach. It can be used to communicate and interact with a wide range of users.',
       href: 'https://anyars-chat-app.vercel.app/',
       github: 'https://github.com/anyars-encarta/encarta-chat-app',
-      texture: '/textures/project/project5.mp4',
+      texture: '/textures/project/project9.mp4',
       logo: '/assets/school.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
@@ -485,7 +485,7 @@ export const navLinks = [
         'Built with React, Firebase, and Zustand, Chat App combines cutting-edge technology with a user-centric approach. It can be used to communicate and interact with a wide range of users.',
       href: 'https://anyars-chat-app.vercel.app/',
       github: 'https://github.com/anyars-encarta/encarta-chat-app',
-      texture: '/textures/project/project5.mp4',
+      texture: '/textures/project/project10.mp4',
       logo: '/assets/mentor-me-icon.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
