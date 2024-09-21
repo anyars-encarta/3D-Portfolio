@@ -48,7 +48,11 @@ const Clients = () => {
             </div>
 
             <div className='w-full flex items-center justify-center mt-5'>
-                <img src="/assets/arrow-down.svg" alt="arrow" className={`w-8 h-8 cursor-pointer ${initialCount >= allReviews ? 'rotate-180' : ''}`} onClick={handleShowMore} />
+                <img
+                    src="/assets/arrow-down.svg"
+                    alt="arrow"
+                    className={`w-8 h-8 cursor-pointer ${initialCount >= allReviews ? 'rotate-180' : 'animate-bounce'}`}
+                    onClick={handleShowMore} />
             </div>
         </section>
     )
