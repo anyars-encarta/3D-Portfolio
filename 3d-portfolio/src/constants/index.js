@@ -34,35 +34,107 @@ export const navLinks = [
   export const clientReviews = [
     {
       id: 1,
-      name: 'Emily Johnson',
-      position: 'Marketing Director at GreenLeaf',
-      img: 'assets/review1.png',
+      name: 'Lala Aicha El Vadel, Mauritania',
+      position: 'Full-stack Developer at IBTIKAR Technologies',
+      img: 'assets/reviews/lala.png',
       review:
-        'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+        'Anyars Yussif is an exceptional full-stack developer with strong problem-solving skills and effective communication abilities. Working closely with Anyars has shown me his remarkable talent for tackling complex challenges. His analytical thinking and innovative approach to problem-solving have been instrumental in overcoming various technical hurdles.',
     },
     {
       id: 2,
-      name: 'Mark Rogers',
-      position: 'Founder of TechGear Shop',
-      img: 'assets/review2.png',
+      name: 'Kennedy Owusu, Ghana',
+      position: 'Full-stack Developer at Highlighted Personal Projects',
+      img: 'assets/reviews/kennedy.png',
       review:
-        'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+        "Anyars' remarkable technical acumen, astute approach to problem-solving, and meticulous attention to detail were truly exceptional. He proved to be a proactive participant in team deliberations, displaying adept communication skills and fostering a constructive work atmosphere.",
     },
     {
       id: 3,
-      name: 'John Dohsas',
-      position: 'Project Manager at UrbanTech ',
-      img: 'assets/review3.png',
+      name: 'Zuwaira Sadiq, Nigeria',
+      position: 'CEO at Zuwairanajma-Elites',
+      img: 'assets/reviews/zuwaira.png',
       review:
-        'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+        "Anyars Yussif is not only technically skilled but also a fantastic team player. His ability to communicate complex technical concepts clearly and concisely has been invaluable. Anyars consistently goes above and beyond to deliver high-quality code and meet project deadlines. I highly recommend him to any tech organization as a full-stack developer. He is indeed an asset.",
     },
     {
       id: 4,
-      name: 'Ether Smith',
-      position: 'CEO of BrightStar Enterprises',
-      img: 'assets/review4.png',
+      name: 'Graciano Henrique, Angola',
+      position: 'Full-stack Developer at Highlighted Personal Projects',
+      img: 'assets/reviews/graciano.png',
       review:
-        'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+        "Throughout our time working together, I was continually impressed by Anyars Yussif's ability to seamlessly navigate both front-end and back-end development challenges. Their deep understanding of various programming languages, frameworks, and technologies allowed them to craft elegant solutions that not only met but exceeded project requirements. He has an incredible knack for turning complex technical concepts into user-friendly applications. Anyars Yussif thrives under pressure and tight deadlines. I can recall multiple instances where he took the lead in critical situations, swiftly identifying issues and implementing solutions that saved valuable time and resources. His ability to remain calm and focused, even in the face of complexity, is a testament to his strong problem-solving skills.",
+    },
+    {
+      id: 5,
+      name: 'Eugene (Omwomo) Oduor, Kenya',
+      position: 'Full-stack Developer at Highlighted Personal Projects',
+      img: 'assets/reviews/eugene.png',
+      review:
+        "I have had the privilege of working closely with Anyars Yussif and consider him an outstanding full-stack developer. Anyars is not just a proficient coder; he is a dynamic problem solver with an unparalleled ability to navigate complex challenges.",
+    },
+    {
+      id: 6,
+      name: 'Thierry Noumbuh, Cameroon',
+      position: 'Full-stack Developer at Highlighted Personal Projects',
+      img: 'assets/reviews/thierry.png',
+      review:
+        "I had the privilege of collaborating with Anyars on a group project that involved pair programming. Anyars's consistent display of technical prowess and collaborative spirit truly stood out. he possesses an exceptional ability to efficiently delegate tasks and maintain effective communication, which significantly contributed to the success of our project. One remarkable aspect of Anyars's approach is his readiness to offer assistance and support whenever needed. Beyond his technical acumen, his content contributions were consistently outstanding, elevating the overall quality of our project.",
+    },
+    {
+      id: 7,
+      name: 'Bett Kipngeno Enock, Kenya',
+      position: 'Full-stack Developer at Highlighted Personal Projects',
+      img: 'assets/reviews/enock.png',
+      review:
+        "While coding at microverse, Anyars demonstrated relentless concentration and determination to produce results. He is also a forward-thinking person with futuristic ideas.",
+    },
+    {
+      id: 8,
+      name: 'Md. Arafat Hossain, Bangladesh',
+      position: 'Full-stack Developer at Highlighted Personal Projects',
+      img: 'assets/reviews/arafat.png',
+      review:
+        "Anyars' technical prowess and problem-solving skills consistently shine through in his work. He has a keen eye for detail and a knack for delivering clean, efficient code. He is a true asset to any web development project, and I have no doubt he will continue to impress with his expertise and dedication.",
+    },
+    {
+      id: 9,
+      name: 'Ayokunnumi Omololu, Nigeria',
+      position: 'Full-stack Developer at Tech To The Rescue',
+      img: 'assets/reviews/ayo.png',
+      review:
+        "Anyars is an excellent software developer with analytical and critical thinking abilities. He has the ability to handle multiple projects and prioritise tasks. He would be a great asset to any organization that seek his expertise.",
+    },
+    {
+      id: 10,
+      name: 'Mozamel Jawad, Afghanistan',
+      position: 'Full-stack Developer at Highlighted Personal Projects',
+      img: 'assets/reviews/jawad.png',
+      review:
+        "Anyars has a strong foundation in software development and is well-versed in various programming languages and frameworks. He has excellent skills in both frontend and backend technologies, allowing him to develop comprehensive and well-rounded software solutions.",
+    },
+    {
+      id: 11,
+      name: 'NOEL NOMGNE FOKA, Cameroon',
+      position: 'Full-stack Developer at Highlighted Personal Projects',
+      img: 'assets/reviews/noel.png',
+      review:
+        "Anyars Yussif is a passionate, determined and dedicated developer. I had the pleasure of working with Anyars Youssif and what really stood out to me was his curiosity in the smallest details that we overlook. I find him really exceptional as a developer.",
+    },
+    {
+      id: 12,
+      name: 'Ricardo Egas, Poland',
+      position: 'Full-stack Developer at Highlighted Personal Projects',
+      img: 'assets/reviews/ricardo.png',
+      review:
+        "Anyars is not only a talented coder but also a team player who elevates the entire development process. I have no doubt that he will continue to excel in their coding journey and contribute positively to any project they undertake.",
+    },
+    {
+      id: 13,
+      name: 'Stanley Osagie, Nigeria',
+      position: 'Full-stack Developer at Highlighted Personal Projects',
+      img: 'assets/reviews/stanley.png',
+      review:
+        "If you are looking for an exceptional programmer, You have already found one right now. I and Anyars Yussif had been in the same coding session at our full-stack training at Microverse Learning Institute. I love to admit he is so vast when it comes to the technicality of software development, both on the backend and the frontend. Whenever we got stuck on a project, he would quickly go through and study the framework documentation and propose a solution that always worked. He is also a fast learner.",
     },
   ];
   
