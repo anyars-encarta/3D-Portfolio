@@ -1,6 +1,7 @@
 import Globe from 'react-globe.gl';
 import Button from '../components/Button';
 import { useState } from 'react';
+import StarsCanvas from '../components/StarsCanvas';
 
 const About = () => {
     const [copied, setCopied] = useState(false);
@@ -51,7 +52,7 @@ const About = () => {
                 </div>
 
                 <div className='col-span-1 xl:row-span-4'>
-                    <div className='grid-container'>
+                    <div className='grid-container relative z-0'>
                         <div className='rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center'>
                             <Globe
                                 height={326}
@@ -73,12 +74,14 @@ const About = () => {
 
                         <div>
                             <p className='grid-headtext'>I work remotely accross most timezones</p>
-                            <p className='grid-subtext'>I am based in Kumasi, Ghana, West Africa, with remote work is available</p>
+                            <p className='grid-subtext'>I am based in Kumasi, Ghana, West Africa, with remote work available</p>
 
                             <a href="#contact">
                                 <Button name="Contact Me" isBeam containerClass='w-full mt-10' />
                             </a>
                         </div>
+                        
+                        <StarsCanvas />
                     </div>
                 </div>
 
