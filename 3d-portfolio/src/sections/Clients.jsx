@@ -3,7 +3,6 @@ import { clientReviews } from '../constants'
 
 const allReviews = clientReviews.length;
 
-console.log(allReviews)
 const Clients = () => {
     const [initialCount, setInitialCount] = useState(4);
 
@@ -14,7 +13,7 @@ const Clients = () => {
             const reviewsElement = document.getElementById('clients');
             reviewsElement.scrollIntoView({ behavior: 'smooth' });
         } else {
-            setInitialCount(initialCount + 4);
+            setInitialCount(initialCount + 2);
         }
     };
 
