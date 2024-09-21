@@ -1,4 +1,3 @@
-import { BrowserRouter } from 'react-router-dom';
 import Navbar from './sections/Navbar'
 import Hero from './sections/Hero'
 import About from './sections/About'
@@ -11,7 +10,6 @@ import StarsCanvas from './components/StarsCanvas'
 
 const App = () => {
   return (
-    <BrowserRouter>
       <main className='max-w-7xl mx-auto relative z-0'>
         <Navbar />
         <div className='relative z-0'>
@@ -25,7 +23,6 @@ const App = () => {
         <Contact />
         <Footer />
       </main>
-    </BrowserRouter>
   )
 }
 
