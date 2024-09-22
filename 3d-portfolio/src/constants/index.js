@@ -369,44 +369,44 @@ export const navLinks = [
         },
       ],
     },
-    {
-      title: 'E-Montessori - A School Management System',
-      desc: 'E-Montessori is a groundbreaking school management system that enhances the mansgement of student and teachers schedules, lessons, and assignments. With features to schedule lessons for both students and teachers, manage student attendance, assignments and examinations, it provides a seamless and productive way to manage a school.',
-      subdesc:
-        'Built with React, Firebase, and Zustand, Chat App combines cutting-edge technology with a user-centric approach. It can be used to communicate and interact with a wide range of users.',
-      href: 'https://anyars-chat-app.vercel.app/',
-      github: 'https://github.com/anyars-encarta/encarta-chat-app',
-      texture: '/textures/project/project10.mp4',
-      logo: '/assets/school.png',
-      logoStyle: {
-        backgroundColor: '#1C1A43',
-        border: '0.2px solid #252262',
-        boxShadow: '0px 0px 60px 0px #635BFF4D',
-      },
-      spotlight: '/assets/spotlight4.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'Next JS',
-          path: 'assets/next.png',
-        },
-        {
-          id: 3,
-          name: 'Tailwind CSS',
-          path: '/assets/tailwindcss.png',
-        },
-        {
-          id: 4,
-          name: 'Recharts',
-          path: '/assets/recharts.png',
-        },
-      ],
-    },
+    // {
+    //   title: 'E-Montessori - A School Management System',
+    //   desc: 'E-Montessori is a groundbreaking school management system that enhances the mansgement of student and teachers schedules, lessons, and assignments. With features to schedule lessons for both students and teachers, manage student attendance, assignments and examinations, it provides a seamless and productive way to manage a school.',
+    //   subdesc:
+    //     'Built with React, Firebase, and Zustand, Chat App combines cutting-edge technology with a user-centric approach. It can be used to communicate and interact with a wide range of users.',
+    //   href: 'https://anyars-chat-app.vercel.app/',
+    //   github: 'https://github.com/anyars-encarta/encarta-chat-app',
+    //   texture: '/textures/project/project10.mp4',
+    //   logo: '/assets/school.png',
+    //   logoStyle: {
+    //     backgroundColor: '#1C1A43',
+    //     border: '0.2px solid #252262',
+    //     boxShadow: '0px 0px 60px 0px #635BFF4D',
+    //   },
+    //   spotlight: '/assets/spotlight4.png',
+    //   tags: [
+    //     {
+    //       id: 1,
+    //       name: 'React.js',
+    //       path: '/assets/react.svg',
+    //     },
+    //     {
+    //       id: 2,
+    //       name: 'Next JS',
+    //       path: 'assets/next.png',
+    //     },
+    //     {
+    //       id: 3,
+    //       name: 'Tailwind CSS',
+    //       path: '/assets/tailwindcss.png',
+    //     },
+    //     {
+    //       id: 4,
+    //       name: 'Recharts',
+    //       path: '/assets/recharts.png',
+    //     },
+    //   ],
+    // },
     {
       title: 'MentorMe - A Mentorship / Counselling Application',
       desc: 'MentorMe is an innovative mentorship or counselling application that enhances communication and interaction between people. With features to book appointments, hold virtual counselling and mentorship sessions, it provides a seamless and productive way to hold meetings and connect with a wide range of users.',
