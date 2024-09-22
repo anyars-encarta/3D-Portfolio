@@ -300,7 +300,7 @@ export const navLinks = [
         'Built with Next.js 14, Clerk, and Radix UI, Stream-io, Encartoom combines cutting-edge technology with a user-centric approach. It can be used for personal or even industrial meetings and conferences, ensuring a seamless and productive business.',
       href: 'https://encarta-zoom-clone.vercel.app/',
       github: 'https://github.com/anyars-encarta/encarta-zoom-clone',
-      texture: '/textures/project/project5.mp4',
+      texture: '/textures/project/encartoom.mp4',
       logo: '/assets/logo.svg',
       logoStyle: {
         backgroundColor: '#1C1A43',
@@ -332,13 +332,13 @@ export const navLinks = [
       ],
     },
     {
-      title: 'Expenses Tracker - An Expenses Management App',
+      title: 'Expenses Tracker - A Finances Management App',
       desc: 'Expenses Tracker is an innovative application that helps to manage income and expenses. With features to records incomes and expenses, it provides a seamless and productive way to track expenditures.',
       subdesc:
         'Built with React, Redux, Framer Motion, and Chakra UI, Expenses Tracker combines cutting-edge technology with a user-centric approach. It can be used to manage a wide variety of expenses, from personal expenses to business expenses.',
       href: 'https://anyars-encarta.github.io/expense-tracker/',
       github: 'https://github.com/anyars-encarta/expense-tracker',
-      texture: '/textures/project/project6.mp4',
+      texture: '/textures/project/expenses-tracker.mp4',
       logo: '/assets/expenses-tracker.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
@@ -370,84 +370,13 @@ export const navLinks = [
       ],
     },
     {
-      title: 'Chat App - An Interactive Chat App',
-      desc: 'Chat App is an innovative application that enhances communication and interaction between people. With features to share text, images, and files, it provides a seamless and productive way to communicate.',
-      subdesc:
-        'Built with React, Firebase, and Zustand, Chat App combines cutting-edge technology with a user-centric approach. It can be used to communicate and interact with a wide range of users.',
-      href: 'https://anyars-chat-app.vercel.app/',
-      github: 'https://github.com/anyars-encarta/encarta-chat-app',
-      texture: '/textures/project/project7.mp4',
-      logo: '/assets/chat-app.png',
-      logoStyle: {
-        backgroundColor: '#1C1A43',
-        border: '0.2px solid #252262',
-        boxShadow: '0px 0px 60px 0px #635BFF4D',
-      },
-      spotlight: '/assets/spotlight3.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'Google Firebase',
-          path: 'assets/firebase.png',
-        },
-        {
-          id: 3,
-          name: 'Zustand',
-          path: '/assets/zustand.png',
-        },
-      ],
-    },
-    {
-      title: 'Encarta Social - A Social Media Application',
-      desc: 'Encarta Social is an innovative social media application that enhances communication and interaction between people. With features to send and accept friendship requests, block and unblock users, share text, images, and files, it provides a seamless and productive way to socialize.',
-      subdesc:
-        'Built with React, Firebase, and Zustand, Chat App combines cutting-edge technology with a user-centric approach. It can be used to communicate and interact with a wide range of users.',
-      href: 'https://anyars-chat-app.vercel.app/',
-      github: 'https://github.com/anyars-encarta/encarta-chat-app',
-      texture: '/textures/project/project8.mp4',
-      logo: '/assets/social-media.png',
-      logoStyle: {
-        backgroundColor: '#1C1A43',
-        border: '0.2px solid #252262',
-        boxShadow: '0px 0px 60px 0px #635BFF4D',
-      },
-      spotlight: '/assets/spotlight4.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'Next JS',
-          path: 'assets/next.png',
-        },
-        {
-          id: 3,
-          name: 'MongoDB',
-          path: '/assets/mongodb.png',
-        },
-        {
-          id: 4,
-          name: 'Prisma',
-          path: '/assets/prisma.png',
-        },
-      ],
-    },
-    {
       title: 'E-Montessori - A School Management System',
       desc: 'E-Montessori is a groundbreaking school management system that enhances the mansgement of student and teachers schedules, lessons, and assignments. With features to schedule lessons for both students and teachers, manage student attendance, assignments and examinations, it provides a seamless and productive way to manage a school.',
       subdesc:
         'Built with React, Firebase, and Zustand, Chat App combines cutting-edge technology with a user-centric approach. It can be used to communicate and interact with a wide range of users.',
       href: 'https://anyars-chat-app.vercel.app/',
       github: 'https://github.com/anyars-encarta/encarta-chat-app',
-      texture: '/textures/project/project9.mp4',
+      texture: '/textures/project/project10.mp4',
       logo: '/assets/school.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
@@ -483,9 +412,9 @@ export const navLinks = [
       desc: 'MentorMe is an innovative mentorship or counselling application that enhances communication and interaction between people. With features to book appointments, hold virtual counselling and mentorship sessions, it provides a seamless and productive way to hold meetings and connect with a wide range of users.',
       subdesc:
         'Built with React, Firebase, and Zustand, Chat App combines cutting-edge technology with a user-centric approach. It can be used to communicate and interact with a wide range of users.',
-      href: 'https://anyars-chat-app.vercel.app/',
-      github: 'https://github.com/anyars-encarta/encarta-chat-app',
-      texture: '/textures/project/project10.mp4',
+      href: 'https://encarta-mentor-me.vercel.app/',
+      github: 'https://github.com/anyars-encarta/mentor-me',
+      texture: '/textures/project/mentorme.mp4',
       logo: '/assets/mentor-me-icon.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
