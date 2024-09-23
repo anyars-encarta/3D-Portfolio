@@ -10,7 +10,7 @@ const Navbar = () => {
 
     useEffect(() => {
         const handleDocumentClick = (event) => {
-          if (!event.target.closest('.nav-main')) {
+          if (isOpen && !event.target.closest('.nav-main')) {
             toggleMenu();
           }
         };
