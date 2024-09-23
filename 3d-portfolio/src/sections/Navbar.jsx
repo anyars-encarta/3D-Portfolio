@@ -10,7 +10,7 @@ const Navbar = () => {
 
     useEffect(() => {
         const handleDocumentClick = (event) => {
-          if (isOpen && !event.target.closest('.nav-main')) {
+          if (isOpen && !event.target.closest('.for-menu')) {
             toggleMenu();
           }
         };
@@ -23,7 +23,7 @@ const Navbar = () => {
       }, [toggleMenu]);
 
     return (
-        <header className='nav-main fixed top-0 left-0 right-0 z-50 bg-black/90'>
+        <header className='for-menu fixed top-0 left-0 right-0 z-50 bg-black/90'>
             <div className='max-w-7xl mx-auto'>
                 <div className='flex justify-between items-center py-5 mx-auto c-space'>
                     <a href="/" className="text-neutral-400 font-bold text-xl hover:text-white transition-colors">
