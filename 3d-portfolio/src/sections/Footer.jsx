@@ -4,7 +4,7 @@ const Footer = () => {
     const year = new Date().getFullYear()
 
     return (
-        <section className='c-space pt-7 pb-3 border-t border-black-300 flex justify-between items-center flex-wrap gap-5'>
+        <section className='c-space pt-7 pb-3 border-t border-black-300 flex sm:justify-between justify-center items-center flex-wrap gap-5'>
             <div className='text-white-500 flex gap-2'>
                 <p>Terms and Conditions</p>
                 <p>|</p>
