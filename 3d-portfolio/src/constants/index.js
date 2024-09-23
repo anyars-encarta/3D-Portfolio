@@ -447,6 +447,61 @@ export const navLinks = [
     },
   ];
   
+  export const technologies = [
+    {
+      name: "Framer Motion",
+      icon: '/assets/framer.png',
+    },
+    // {
+    //   name: "CSS 3",
+    //   icon: '/assets/css.png',
+    // },
+    {
+      name: "JavaScript",
+      icon: '/assets/javascript.png',
+    },
+    {
+      name: "Ruby",
+      icon: '/assets/ruby.png',
+    },
+     {
+      name: "React JS",
+      icon: '/assets/react.svg',
+    },
+    {
+      name: "Next JS",
+      icon: '/assets/next.png',
+    },
+    {
+      name: "Tailwind CSS",
+      icon: '/assets/tailwindcss.png',
+    },
+    {
+      name: "TypeScript",
+      icon: '/assets/typescript.png',
+    },
+    {
+      name: "Three JS",
+      icon: '/assets/threejs.png',
+    },
+    // {
+    //   name: "git",
+    //   icon: '/assets/git.png',
+    // },
+    {
+      name: "PostgreSQL",
+      icon: '/assets/postgresql.png',
+    },
+    {
+      name: "Ruby on Rails",
+      icon: '/assets/rails.png',
+    },
+    // {
+    //   name: "MySQL",
+    //   icon: '/assets/mysql.png',
+    // },
+  ];
+
   export const calculateSizes = (isSmall, isMobile, isTablet) => {
     return {
       deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,

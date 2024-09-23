@@ -2,6 +2,7 @@ import Globe from 'react-globe.gl';
 import Button from '../components/Button';
 import { useState } from 'react';
 import StarsCanvas from '../components/StarsCanvas';
+import Tech from './Tech';
 
 const About = () => {
     const [copied, setCopied] = useState(false);
@@ -113,6 +114,8 @@ const About = () => {
                     </div>
                 </div>
             </div>
+
+            <Tech />
         </section>
     )
 }
