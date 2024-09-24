@@ -6,6 +6,21 @@ import CanvasLoader from './CanvasLoader';
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
 
+  // const decals = [
+  //   { position: [0, 0, 1], rotation: [2 * Math.PI, 0, 6.25] },
+  //   { position: [0, 0.5, 1], rotation: [2 * Math.PI, 0.5, 6.25] },
+  //   { position: [0.5, 0, 1], rotation: [2 * Math.PI, 0, 6.75] },
+  //   { position: [-0.5, 0, 1], rotation: [2 * Math.PI, 0, 5.75] },
+  //   // { position: [0, -0.5, 1], rotation: [2 * Math.PI, -0.5, 6.25] },
+  // ];
+
+  // const meshRef = useRef();
+
+  // useFrame(() => {
+  //   meshRef.current.rotation.x += 0.01;
+  //   meshRef.current.rotation.y += 0.01;
+  // });
+
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
       <ambientLight intensity={0.25} />
@@ -13,8 +28,11 @@ const Ball = (props) => {
 
       <mesh castShadow receiveShadow scale={2.75}>
         <icosahedronGeometry args={[1, 1]} />
-        <meshStandardMaterial color='#fff8eb' polygonOffset polygonOffsetFactor={-5} flatShading/>
+        <meshLambertMaterial color='#468500' polygonOffset polygonOffsetFactor={-5} flatShading/>
         <Decal position={[0, 0, 1]} rotation={[2 * Math.PI, 0, 6.25]} flatShading map={decal} />
+        {/* {decals.map((decalProps, index) => (
+          <Decal key={index} position={decalProps.position} rotation={decalProps.rotation} flatShading map={decal} />
+        ))} */}
       </mesh>
     </Float>
   )
