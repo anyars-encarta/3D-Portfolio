@@ -39,7 +39,7 @@
 <!-- INTRO -->
 # 📖 Anyars | Portfolio <a name="about-project"></a>
 
-> This is a Portfolio project to showcase my skills, achievements and abilities. Built with React and Three.js. Built with
+> This is a Portfolio project to showcase my skills, achievements and abilities. Built with React and Three.js. Built
 
 ## 🛠 Built With <a name="built-with"></a>
 1. React.js
