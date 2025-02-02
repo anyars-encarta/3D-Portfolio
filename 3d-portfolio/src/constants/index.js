@@ -517,6 +517,15 @@ export const navLinks = [
   export const workExperiences = [
     {
       id: 1,
+      name: 'JavaScript Mastery',
+      pos: 'Full-stack Developer',
+      duration: '2023 - 2025',
+      title: "Building Full-stack production-ready applications with React, Next.js, Three.js, Node.js, Express, Appwrite, Tailwind CSS, TypeScript, JavaScript, and MongoDB with a blend of modern frameworks like Shadcn, Materials UI, and Framer Motion. I have also developed a strong understanding of the software development lifecycle, including design, development, testing, deployment, and maintenance. I have also gained experience in working with Git, GitHub, and industry-standard gitflow.",
+      icon: '/assets/companies/jsm.png',
+      animation: 'victory',
+    },
+    {
+      id: 2,
       name: 'Microverse',
       pos: 'Full-stack Developer',
       duration: '2023 - 2024',
@@ -525,7 +534,7 @@ export const navLinks = [
       animation: 'salute',
     },
     {
-      id: 2,
+      id: 3,
       name: 'Baptist Medical Centre',
       pos: 'I. T. Manager',
       duration: '2016 - Present',
@@ -534,7 +543,7 @@ export const navLinks = [
       animation: 'victory',
     },
     {
-      id: 3,
+      id: 4,
       name: 'Gushegu District Hospital',
       pos: 'Web Developer',
       duration: '2011 - 2016',

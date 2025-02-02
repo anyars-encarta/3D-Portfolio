@@ -30,7 +30,7 @@ const About = () => {
                         <div>
                             <p className='grid-headtext'>Hi, I'm Anyars</p>
                             <p className='grid-subtext'>
-                                With almost 2 years of experience, I have honed my skills in frontend,
+                                With almost 3 years of experience, I have honed my skills in frontend,
                                 backend, and full-stack development, with a focus on React, Rails,
                                 Next.js, and animated 3D websites
                             </p>
