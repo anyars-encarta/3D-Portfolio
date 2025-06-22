@@ -41,7 +41,7 @@
 
 > This is a Portfolio project to showcase my skills, achievements and abilities. Built with React and Three.js.
 >
-> This is a Portfolio project to showcase my skills, achievements and abilities.
+> This is a Portfolio project to showcase my skills, achievements and
 
 ## 🛠 Built With <a name="built-with"></a>
 1. React.js
