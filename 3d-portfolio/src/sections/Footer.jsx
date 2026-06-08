@@ -1,10 +1,17 @@
-import React from 'react'
-
 const Footer = () => {
     const year = new Date().getFullYear()
 
     return (
-        <section className='c-space pt-7 pb-3 border-t border-black-300 flex sm:justify-between justify-center items-center flex-wrap gap-5'>
+        <section className='c-space pt-7 pb-3 border-t border-black-300 flex flex-col gap-4'>
+        <div className="flex flex-col gap-1">
+            <h2 className='text-white-500 text-center text-xl'>Chief Executive Officer:</h2>
+            <p className='text-white-500 text-center text-sm'>Encarta Networks & Multimedia</p>
+            <p className='text-white-500 text-center text-sm'>P. O. Box 50 Nalerigu, North East Region</p>
+            <p className='text-white-500 text-center text-sm'> Location: <span>Baptist Medical Centre - Nalerigu</span></p>
+            <p className='text-white-500 text-center text-sm'>Email: <span>anyarsencarta@gmail.com</span> Tel: <span>+233 24 211 9972 / +233 20 259 4960</span></p>
+        </div>
+
+        <div className="flex sm:justify-between justify-center items-center flex-wrap gap-5">
             <div className='text-white-500 flex gap-2'>
                 <p>Terms and Conditions</p>
                 <p>|</p>
@@ -38,6 +45,7 @@ const Footer = () => {
             </div>
 
             <p className='text-white-500'>© {year} Anyars Yussif. All rights reserved</p>
+        </div>
         </section>
     )
 }
