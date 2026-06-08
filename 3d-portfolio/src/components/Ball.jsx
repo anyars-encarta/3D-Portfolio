@@ -3,8 +3,14 @@ import { Canvas } from '@react-three/fiber';
 import { Decal, Float, OrbitControls, Preload, useTexture } from '@react-three/drei';
 import CanvasLoader from './CanvasLoader';
 
-const Ball = (props) => {
-  const [decal] = useTexture([props.imgUrl]);
+const Ball = ({ imgUrl }) => {
+  const decal = useTexture(imgUrl);
+  const hasValidDecal =
+    Boolean(decal?.image) &&
+    Number.isFinite(decal.image.width) &&
+    Number.isFinite(decal.image.height) &&
+    decal.image.width > 0 &&
+    decal.image.height > 0;
 
   // const decals = [
   //   { position: [0, 0, 1], rotation: [2 * Math.PI, 0, 6.25] },
@@ -29,7 +35,14 @@ const Ball = (props) => {
       <mesh castShadow receiveShadow scale={2.75}>
         <icosahedronGeometry args={[1, 1]} />
         <meshLambertMaterial color='#468500' polygonOffset polygonOffsetFactor={-5} flatShading/>
-        <Decal position={[0, 0, 1]} rotation={[2 * Math.PI, 0, 6.25]} flatShading map={decal} />
+        {hasValidDecal && (
+          <Decal
+            position={[0, 0, 1]}
+            rotation={[2 * Math.PI, 0, 6.25]}
+            flatShading
+            map={decal}
+          />
+        )}
         {/* {decals.map((decalProps, index) => (
           <Decal key={index} position={decalProps.position} rotation={decalProps.rotation} flatShading map={decal} />
         ))} */}
@@ -40,7 +53,7 @@ const Ball = (props) => {
 
 const BallCanvas = ({ icon }) => {
   return (
-    <Canvas frameLoop='demand' gl={{ preserveDrawingBuffer: true }}>
+    <Canvas frameloop='demand' gl={{ preserveDrawingBuffer: true }}>
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false} />
         <Ball imgUrl={icon} />

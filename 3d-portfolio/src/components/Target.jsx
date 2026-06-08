@@ -3,10 +3,12 @@ import { useRef } from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 
+const TARGET_MODEL_PATH = '/models/target_stand/scene.gltf';
+const TARGET_SCALE = 0.10;
+
 const Target = (props) => {
     const targetRef = useRef();
-    // const { scene } = useGLTF('https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/target-stand/model.gltf')
-    const { scene } = useGLTF('/models/target_stand/scene.gltf')
+    const { scene } = useGLTF(TARGET_MODEL_PATH);
     
     useGSAP(() => {
         gsap.to(targetRef.current.position, {
@@ -14,17 +16,16 @@ const Target = (props) => {
             duration: 1.5,
             repeat: -1,
             yoyo: true,
-        }, {
-            y: 0.5,
-            z: 0.5,
-        })
+        });
     });
 
     return (
-        <mesh {...props } ref={targetRef} rotation={[0, Math.PI / 5, 0]} scale={1.5}>
+        <group {...props} ref={targetRef} rotation={[0, Math.PI / 5, 0]} scale={TARGET_SCALE}>
             <primitive object={scene} />
-        </mesh>
-    )
-}
+        </group>
+    );
+};
 
-export default Target
+export default Target;
+
+useGLTF.preload(TARGET_MODEL_PATH);
