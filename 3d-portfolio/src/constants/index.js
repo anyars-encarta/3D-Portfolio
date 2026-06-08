@@ -552,3 +552,74 @@ export const navLinks = [
       animation: 'clapping',
     },
   ];
+
+  export const legalContent = {
+      terms: {
+          title: 'Terms and Conditions',
+          effectiveDate: 'Effective date: 08 June 2026',
+          sections: [
+              {
+                  heading: '1. Scope of Services',
+                  body: 'This portfolio and related contact channels are provided for software engineering, consulting, and collaboration inquiries. Any project scope, deliverables, timelines, and commercial terms are finalized only through a separate written agreement.',
+              },
+              {
+                  heading: '2. Acceptable Use',
+                  body: 'You agree not to misuse this website, attempt unauthorized access, introduce malicious code, scrape private information, or interfere with platform performance.',
+              },
+              {
+                  heading: '3. Intellectual Property',
+                  body: 'All source code, designs, documentation, and project artifacts presented here are protected by applicable intellectual property laws unless otherwise indicated. Reuse, redistribution, or modification requires prior written permission.',
+              },
+              {
+                  heading: '4. Project Engagements',
+                  body: 'For software engineering engagements, payment milestones, revisions, maintenance, deployment responsibilities, and support windows are governed by contract. Work may be paused or terminated for non-payment, abuse, or breach of agreement.',
+              },
+              {
+                  heading: '5. Third-Party Tools and Dependencies',
+                  body: 'Projects may use open-source libraries, cloud platforms, APIs, or external services. Availability, pricing, and policy changes from third parties are outside direct control and may affect project behavior over time.',
+              },
+              {
+                  heading: '6. Disclaimer and Limitation of Liability',
+                  body: 'This website and its content are provided on an "as-is" basis without warranties of any kind. To the fullest extent permitted by law, liability is limited for indirect, incidental, or consequential damages arising from the use of this website or project materials.',
+              },
+              {
+                  heading: '7. Updates to These Terms',
+                  body: 'These terms may be updated periodically. Continued use of this website after updates constitutes acceptance of the revised terms.',
+              },
+          ],
+      },
+      privacy: {
+          title: 'Privacy Policy',
+          effectiveDate: 'Effective date: 08 June 2026',
+          sections: [
+              {
+                  heading: '1. Information Collected',
+                  body: 'When you submit contact requests, the website may collect your name, email address, company details, and message content. Basic technical data such as browser type, device information, and usage events may also be collected for reliability and security purposes.',
+              },
+              {
+                  heading: '2. How Information Is Used',
+                  body: 'Information is used to respond to inquiries, evaluate software engineering opportunities, communicate project updates, improve service quality, and protect against abuse or fraud.',
+              },
+              {
+                  heading: '3. Legal Basis and Consent',
+                  body: 'By using this website and submitting your details, you consent to processing necessary to provide requested services and legitimate business communication.',
+              },
+              {
+                  heading: '4. Sharing and Third Parties',
+                  body: 'Personal data is not sold. Limited data may be processed through trusted service providers such as email delivery platforms, hosting providers, and analytics tools only as required to operate services.',
+              },
+              {
+                  heading: '5. Data Retention and Security',
+                  body: 'Data is retained only as long as needed for communication, contractual, legal, or operational purposes. Reasonable technical and organizational safeguards are used to protect stored information.',
+              },
+              {
+                  heading: '6. Your Rights',
+                  body: 'You may request access, correction, or deletion of personal data, or withdraw consent for future communications, subject to legal and contractual obligations.',
+              },
+              {
+                  heading: '7. Contact for Privacy Requests',
+                  body: 'For privacy-related requests, contact: anyarsencarta@gmail.com',
+              },
+          ],
+      },
+  };
