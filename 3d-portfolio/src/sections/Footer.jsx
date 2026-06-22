@@ -13,8 +13,8 @@ const Footer = () => {
             <div className="flex flex-col gap-1">
                 <h2 className='text-white-500 text-center text-xl'>Chief Executive Officer:</h2>
                 <p className='text-white-500 text-center text-sm'>Encarta Networks & Multimedia</p>
-                <p className='text-white-500 text-center text-sm'>P. O. Box 50 Nalerigu, North East Region</p>
-                <p className='text-white-500 text-center text-sm'> Location: <span>Baptist Medical Centre - Nalerigu</span></p>
+                <p className='text-white-500 text-center text-sm'>P. O. Box UST 449 Kumasi, Ashanti Region</p>
+                <p className='text-white-500 text-center text-sm'> Location: <span>Sepe Tinpongmu, near the Central Mosque</span></p>
                 <p className='text-white-500 text-center text-sm'>Email: <span>anyarsencarta@gmail.com</span> Tel: <span>+233 24 211 9972 / +233 20 259 4960</span></p>
             </div>
 
